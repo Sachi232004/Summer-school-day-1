@@ -1,0 +1,70 @@
+Documentation:
+WHAT DOES EACH HTML ELEMENT DO?
+
+1) <main>: Specifies the main content of the document
+2) <header>: Defines the introductory or navigation content of a website.
+3) <h1> to <h6>: Headings of different levels.
+4) <nav>: This tag is used to make a navigation menu that contains links to other pages.
+5) <hr>: Add horizontal lines across the website.
+6) <a>: Also known as Anchor tag. It adds links to the website.
+7) <ul>: Defines an unordered list.
+8) <ol>: Defines an ordered list.
+9) <p>: Paragraphs of text.
+10) <img>: adds an image to the HTML document.
+11) <link>: It is used to add a favicon to your website.
+12) <table>: Creates a table in a website.
+13) <thead>: Used to group header content in an HTML table. It contains <th>.
+14) <tbody>: Used to group the body of the HTML table. It contains <tr> and <td>. 
+15) <footer>: Defines the footer section of a webpage.
+16) <br>: Begins text from a new line
+17) <form>: Used to create a form in HTML
+18) <label>: Used to create a caption for a form control.
+19) <input>: Specifies an input field where the user can enter data.
+20) <button>: Defines a clickable button on a webpage that users can interact with.
+
+
+
+2. WHY DID I USE SPECIFIC INPUT TYPES?
+
+<input type="text">
+	Used for: Free-form text input (e.g., names).
+	Why: It allows the user to type in any characters. You use this for "Name" because it's generic text.
+
+<input type="email">
+	Used for: Email addresses.
+	Why: Automatically validates that the input follows the email format (like example@mail.com). Also brings up the right keyboard on mobile.
+
+<input type="tel">
+	Used for: Phone numbers.
+	Why: Allows number input and shows a numeric keypad on phones. Here, I added minlength and maxlength to ensure exactly 10 digits.
+
+<textarea>
+	Used for: Multi-line text input.
+	Why: Perfect for messages, feedback, or any content that might need more than one line.
+
+<input type="checkbox">
+	Used for: Selecting multiple options.
+	Why: Ideal for choices like preferred contact methods — a person may prefer email and phone.
+
+<input type="radio">
+	Used for: Selecting only one option from a group.
+	Why: Great for “Inquiry Type” where the user can choose either General, Business, or Support.
+
+<select>
+	Used for: Dropdown selection.
+	Why: Saves space and keeps the form clean. For "Occupation", a dropdown ensures only valid choices are selected.
+
+<input type="range">
+	Used for: Selecting a numeric value within a range using a slider.
+	Why: Great for ratings (like portfolio rating here). It's more interactive than typing a number.
+
+
+3. HOW DOES MY NAVIGATION STRUCTURE WORK?
+
+I have added a <nav> tag to every page, positioned under the <header> tag. It has links to the other pages, like Home (portfolio.html), About (about.htm), and Contact (contact.html) pages.
+It creates links to the other pages.
+I have created an external link on the about page that opens in a new tab.
+
+
+
+	
